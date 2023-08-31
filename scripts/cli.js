@@ -2,4 +2,4 @@
 
 import { quine } from "../src/index.js";
 
-quine();
+console.log(quine());
