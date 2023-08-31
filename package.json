@@ -4,10 +4,11 @@
   "type": "module",
   "description": "A selfrep (quine) program in JavaScript",
   "private": false,
-  "types": "types.d.ts",
-  "main": "index.js",
+  "bin": "scripts/cli.js",
+  "types": "src/index.d.ts",
+  "main": "src/index.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node scripts/cli.js"
   },
   "keywords": [
     "quine",
