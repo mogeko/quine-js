@@ -1,0 +1,26 @@
+{
+  "name": "quine-js",
+  "version": "0.1.0",
+  "type": "module",
+  "description": "A selfrep (quine) program in JavaScript",
+  "private": false,
+  "bin": "scripts/cli.js",
+  "types": "src/index.d.ts",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node scripts/cli.js"
+  },
+  "keywords": [
+    "quine",
+    "fixed point",
+    "selfrep"
+  ],
+  "author": "Zheng Junyi <zhengjunyi@live.com>",
+  "license": "MIT",
+  "repository": "github:mogeko/quine-js",
+  "homepage": "https://github.com/mogeko/quine-js#readme",
+  "bugs": {
+    "url": "https://github.com/mogeko/quine-js/issues",
+    "email": "zhengjunyi@live.com"
+  }
+}
