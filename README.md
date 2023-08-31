@@ -1,6 +1,6 @@
 # quine-js
 
-This is a selfrep (quine) program. It prints its own source code.
+This is a selfrep (quine) program. It returns its own source code.
 
 ## Usage
 
@@ -9,7 +9,7 @@ As a Node.js module:
 ```js
 import { quine } from "quine-js";
 
-quine();
+console.log(quine());
 ```
 
 As a CLI tool:

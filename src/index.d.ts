@@ -1,9 +1,9 @@
 /**
  * This is a selfrep (quine) function.
  *
- * It uses the above data (which is the UTF-16 encoding of this function) to print
- * itself to the console.
+ * It uses the above data (which is the UTF-16 encoding of this function) to return
+ * itself as a string.
  */
-declare function quine(): void;
+declare function quine(): string;
 
 export { quine };
