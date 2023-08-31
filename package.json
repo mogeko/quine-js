@@ -1,12 +1,12 @@
 {
   "name": "quine-js",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "private": false,
   "description": "This is a selfrep (quine) program.",
   "type": "module",
   "main": "index.js",
   "scripts": {
-    "start": "vite-node index.js"
+    "start": "node index.js"
   },
   "keywords": [
     "quine",
@@ -14,8 +14,5 @@
     "selfrep"
   ],
   "author": "Zheng Junyi <zhengjunyi@live.com>",
-  "license": "MIT",
-  "devDependencies": {
-    "vite-node": "^0.34.3"
-  }
+  "license": "MIT"
 }
