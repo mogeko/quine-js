@@ -2,7 +2,7 @@
   "name": "quine-js",
   "version": "0.0.1",
   "private": false,
-  "description": "This is a selfrep (quine) program.",
+  "description": "A selfrep (quine) program in JavaScript",
   "type": "module",
   "main": "index.js",
   "scripts": {
