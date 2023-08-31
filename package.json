@@ -1,0 +1,21 @@
+{
+  "name": "quine-js",
+  "version": "0.0.0",
+  "private": false,
+  "description": "This is a selfrep (quine) program.",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "vite-node index.js"
+  },
+  "keywords": [
+    "quine",
+    "fixed point",
+    "selfrep"
+  ],
+  "author": "Zheng Junyi <zhengjunyi@live.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "vite-node": "^0.34.3"
+  }
+}
